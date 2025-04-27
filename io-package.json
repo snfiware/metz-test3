@@ -1,0 +1,88 @@
+{
+	"common": {
+		"name": "metz-test3",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Metz Test3",
+			"de": "Metz Test3",
+			"ru": "Metz Test3",
+			"pt": "Metz Test3",
+			"nl": "Metz test3",
+			"fr": "Metz Test3",
+			"it": "Metz Test3",
+			"es": "Metz Test3",
+			"pl": "Metz Test3",
+			"uk": "Test Metz3",
+			"zh-cn": "METZ TEST3"
+		},
+		"desc": {
+			"en": "metz-test3",
+			"de": "Metz-Test3",
+			"ru": "METZ-TEST3",
+			"pt": "Metz-test3",
+			"nl": "Metz-test3",
+			"fr": "Metz-Test3",
+			"it": "Metz-test3",
+			"es": "Metz-test3",
+			"pl": "Metz-Test3",
+			"uk": "Metz-test3",
+			"zh-cn": "METZ-TEST3"
+		},
+		"authors": [
+			"snuffo <criskol77@gmail.com>"
+		],
+		"keywords": [
+			"tv"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "metz-test3.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/snfiware/ioBroker.metz-test3/main/admin/metz-test3.png",
+		"readme": "https://github.com/snfiware/ioBroker.metz-test3/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "multimedia",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "assumption",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

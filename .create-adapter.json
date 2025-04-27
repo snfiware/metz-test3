@@ -1,0 +1,40 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "metz-test3",
+	"title": "Metz Test3",
+	"keywords": [
+		"tv"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "multimedia",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "assumption",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"nodeVersion": "20",
+	"adminUi": "json",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"authorName": "snuffo",
+	"authorGithub": "snfiware",
+	"authorEmail": "criskol77@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"creatorVersion": "2.6.5"
+}

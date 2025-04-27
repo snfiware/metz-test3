@@ -21,7 +21,7 @@ class MetzTest3 extends utils.Adapter {
 			...options,
 			name: "metz-test3",
 		});
-		this.log.warn("ctor MetzTest3 says hello!")
+		this.log.info("ctor MetzTest3 says hello!")
 		this.on("ready", this.onReady.bind(this));
 		this.on("stateChange", this.onStateChange.bind(this));
 		// this.on("objectChange", this.onObjectChange.bind(this));
